@@ -1,0 +1,19 @@
+{
+    "name": "sst-game",
+    "description": "SST Game",
+    "version": "0.0.1",
+    "type": "module",
+    "author": "verdulife <verdu@live.com> (https://github.com/verdulife/)",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite --config vite/config.dev.mjs",
+        "build": "vite build --config vite/config.prod.mjs"
+    },
+    "devDependencies": {
+        "terser": "^5.31.0",
+        "vite": "^5.3.1"
+    },
+    "dependencies": {
+        "phaser": "^3.80.1"
+    }
+}
