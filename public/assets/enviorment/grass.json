@@ -1,0 +1,15 @@
+{ "columns":8,
+ "image":"grass-ground.png",
+ "imageheight":256,
+ "imagewidth":256,
+ "margin":0,
+ "name":"grass",
+ "spacing":0,
+ "tilecount":64,
+ "tiledversion":"1.11.0",
+ "tileheight":32,
+ "tilewidth":32,
+ "transparentcolor":"#000000",
+ "type":"tileset",
+ "version":"1.10"
+}
