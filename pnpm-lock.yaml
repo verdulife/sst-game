@@ -15,6 +15,9 @@ importers:
       terser:
         specifier: ^5.31.0
         version: 5.31.6
+      typescript:
+        specifier: ^5.4.5
+        version: 5.5.4
       vite:
         specifier: ^5.3.1
         version: 5.4.1(terser@5.31.6)
@@ -323,6 +326,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   vite@5.4.1:
     resolution: {integrity: sha512-1oE6yuNXssjrZdblI9AfBbHCC41nnyoVoEZxQnID6yvQZAFBzxxkqoFLtHUMkYunL8hwOLEjgTuxpkRxvba3kA==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -585,6 +593,8 @@ snapshots:
       acorn: 8.12.1
       commander: 2.20.3
       source-map-support: 0.5.21
+
+  typescript@5.5.4: {}
 
   vite@5.4.1(terser@5.31.6):
     dependencies:

@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-import { fileURLToPath } from 'node:url'
 
 const phasermsg = () => {
     return {
@@ -20,14 +19,6 @@ const phasermsg = () => {
 export default defineConfig({
     base: './',
     logLevel: 'warning',
-    resolve: {
-        alias: [
-            {
-                find: "@",
-                replacement: fileURLToPath(new URL("../src", import.meta.url))
-            }
-        ]
-    },
     build: {
         rollupOptions: {
             output: {
